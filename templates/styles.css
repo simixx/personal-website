@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('cybersecurity.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+#services, #threat-map, #assessment, #case-studies, #blog {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  margin: 2rem 0;
+}
+
+#threat-map #map {
+  height: 400px;
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
